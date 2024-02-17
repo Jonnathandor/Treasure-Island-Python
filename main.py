@@ -49,7 +49,6 @@ def start_game():
     if door_color in ["red", "blue"]:
         return "It's a room full of fire. Game Over."
     elif door_color == "yellow":
-        print()
         return "You found the treasure! You Win!"
 
 if __name__ == "__main__":
